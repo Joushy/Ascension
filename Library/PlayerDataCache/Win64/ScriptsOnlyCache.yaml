@@ -1,0 +1,3483 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - GameCreator.Camera.CameraMotorTypeFollowEditor
+    Assembly-CSharp.dll:
+    - ComboBoxesManager
+    - CursorMovement
+    - DestroyScript
+    - DialogueManager
+    - EnemyCursorMovement
+    - EnemyEncounter
+    - EnemyUIDynamicStatusBar
+    - FloatObject
+    - FollowCamera
+    - Footsteps
+    - GameCreator.Camera.CameraController
+    - GameCreator.Camera.CameraMotor
+    - GameCreator.Camera.CameraMotorTypeFollow
+    - GameCreator.Characters.DialogueTrigger
+    - GameCreator.Characters.PlayHealEffect
+    - GameCreator.Characters.PlayerCharacter
+    - GameCreator.Core.CanvasRenderMode
+    - GameCreator.Core.DataProviderDefault
+    - GameCreator.Core.DatabaseGeneral
+    - GameCreator.Core.DatabaseQuickstart
+    - GameCreator.Core.Hooks.HookCamera
+    - GameCreator.Core.Hooks.HookPlayer
+    - GameCreator.Core.IActionsList
+    - GameCreator.Core.IgniterStart
+    - GameCreator.Core.TouchStick
+    - GameCreator.Feedback.DatabaseFeedback
+    - GameCreator.Localization.DatabaseLocalization
+    - GameCreator.Variables.DatabaseVariables
+    - GameManager
+    - InputBoxText
+    - LerpToLocation
+    - LevelChanger
+    - LookAt
+    - OverworldGameManager
+    - Pinwheel.Griffin.BackupTool.GUndoCompatibleBuffer
+    - Pinwheel.Griffin.GGrassPrototypeGroup
+    - Pinwheel.Griffin.GGriffinSettings
+    - Pinwheel.Griffin.GSplatPrototypeGroup
+    - Pinwheel.Griffin.GTreePrototypeGroup
+    - Pinwheel.Griffin.HelpTool.GEditorSkin
+    - Pinwheel.Griffin.HelpTool.GHelpDatabase
+    - Pinwheel.Griffin.PaintTool.GTexturePainterCustomParams
+    - Pinwheel.Griffin.TextureTool.GTextureToolParams
+    - Player
+    - PlayerVisibility
+    - SceneTransition
+    - UIDynamicStatusBar
+    - UIStatusControl
+    - UIStatusControlEnemies
+    - UITimelineControl
+    Unity.TerrainTools.Editor.dll:
+    - UnityEditor.Experimental.TerrainAPI.BillowNoise
+    - UnityEditor.Experimental.TerrainAPI.BridgeTool
+    - UnityEditor.Experimental.TerrainAPI.CloneBrushTool
+    - UnityEditor.Experimental.TerrainAPI.ContrastTool
+    - UnityEditor.Experimental.TerrainAPI.FbmFractalType
+    - UnityEditor.Experimental.TerrainAPI.MeshStampTool
+    - UnityEditor.Experimental.TerrainAPI.NoiseBlitShaderGenerator
+    - UnityEditor.Experimental.TerrainAPI.NoiseFillShaderGenerator
+    - UnityEditor.Experimental.TerrainAPI.NoiseHeightTool
+    - UnityEditor.Experimental.TerrainAPI.NoneFractalType
+    - UnityEditor.Experimental.TerrainAPI.PaintHeightTool
+    - UnityEditor.Experimental.TerrainAPI.PerlinNoise
+    - UnityEditor.Experimental.TerrainAPI.RidgeNoise
+    - UnityEditor.Experimental.TerrainAPI.SetHeightTool
+    - UnityEditor.Experimental.TerrainAPI.SharpenPeaksTool
+    - UnityEditor.Experimental.TerrainAPI.SlopeFlattenTool
+    - UnityEditor.Experimental.TerrainAPI.SmoothHeightTool
+    - UnityEditor.Experimental.TerrainAPI.StampTool
+    - UnityEditor.Experimental.TerrainAPI.TerraceErosion
+    - UnityEditor.Experimental.TerrainAPI.ThermalErosionTool
+    - UnityEditor.Experimental.TerrainAPI.ValueNoise
+    - UnityEditor.Experimental.TerrainAPI.VoronoiNoise
+    - UnityEditor.Experimental.TerrainAPI.WindErosionTool
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/Official_Scenes/Forest Scenes/BurningForest.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9756}
+    - Class: 114
+      Script: {instanceID: 9772}
+    - Class: 114
+      Script: {instanceID: 9788}
+    - Class: 114
+      Script: {instanceID: 9794}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9844}
+    - Class: 114
+      Script: {instanceID: 9846}
+    - Class: 114
+      Script: {instanceID: 9858}
+    - Class: 114
+      Script: {instanceID: 9966}
+    - Class: 114
+      Script: {instanceID: 9986}
+    - Class: 114
+      Script: {instanceID: 10024}
+    - Class: 114
+      Script: {instanceID: 10080}
+    - Class: 114
+      Script: {instanceID: 10084}
+    - Class: 114
+      Script: {instanceID: 10366}
+    - Class: 114
+      Script: {instanceID: 10460}
+    - Class: 114
+      Script: {instanceID: 10534}
+    - Class: 114
+      Script: {instanceID: 10738}
+    - Class: 114
+      Script: {instanceID: 10772}
+    - Class: 114
+      Script: {instanceID: 10818}
+    - Class: 114
+      Script: {instanceID: 10864}
+    - Class: 114
+      Script: {instanceID: 10918}
+    - Class: 114
+      Script: {instanceID: 10978}
+    - Class: 114
+      Script: {instanceID: 11122}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11460}
+    - Class: 114
+      Script: {instanceID: 11548}
+    - Class: 114
+      Script: {instanceID: 11586}
+    - Class: 114
+      Script: {instanceID: 11670}
+    - Class: 114
+      Script: {instanceID: 11702}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 11854}
+    - Class: 114
+      Script: {instanceID: 11964}
+    - Class: 114
+      Script: {instanceID: 12060}
+    - Class: 114
+      Script: {instanceID: 12138}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12248}
+    - Class: 114
+      Script: {instanceID: 12290}
+    - Class: 114
+      Script: {instanceID: 12364}
+    - Class: 114
+      Script: {instanceID: 12436}
+    - Class: 114
+      Script: {instanceID: 12528}
+    - Class: 114
+      Script: {instanceID: 12548}
+    - Class: 114
+      Script: {instanceID: 12698}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 1183024399
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/Official_Scenes/Forest Scenes/BurningForestBattleBossScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9418}
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 9788}
+    - Class: 114
+      Script: {instanceID: 9794}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9844}
+    - Class: 114
+      Script: {instanceID: 9846}
+    - Class: 114
+      Script: {instanceID: 10166}
+    - Class: 114
+      Script: {instanceID: 10250}
+    - Class: 114
+      Script: {instanceID: 10546}
+    - Class: 114
+      Script: {instanceID: 10864}
+    - Class: 114
+      Script: {instanceID: 10950}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11238}
+    - Class: 114
+      Script: {instanceID: 11302}
+    - Class: 114
+      Script: {instanceID: 11372}
+    - Class: 114
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11806}
+    - Class: 114
+      Script: {instanceID: 11922}
+    - Class: 114
+      Script: {instanceID: 12060}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12180}
+    - Class: 114
+      Script: {instanceID: 12206}
+    - Class: 114
+      Script: {instanceID: 12248}
+    - Class: 114
+      Script: {instanceID: 12548}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/Official_Scenes/Forest Scenes/BurningForestBattleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9418}
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 9788}
+    - Class: 114
+      Script: {instanceID: 9794}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9844}
+    - Class: 114
+      Script: {instanceID: 9846}
+    - Class: 114
+      Script: {instanceID: 10166}
+    - Class: 114
+      Script: {instanceID: 10250}
+    - Class: 114
+      Script: {instanceID: 10546}
+    - Class: 114
+      Script: {instanceID: 10864}
+    - Class: 114
+      Script: {instanceID: 10950}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11238}
+    - Class: 114
+      Script: {instanceID: 11302}
+    - Class: 114
+      Script: {instanceID: 11372}
+    - Class: 114
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11806}
+    - Class: 114
+      Script: {instanceID: 11922}
+    - Class: 114
+      Script: {instanceID: 12060}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12180}
+    - Class: 114
+      Script: {instanceID: 12206}
+    - Class: 114
+      Script: {instanceID: 12248}
+    - Class: 114
+      Script: {instanceID: 12548}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/Official_Scenes/Forest Scenes/MainForestTown.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9788}
+    - Class: 114
+      Script: {instanceID: 9794}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9844}
+    - Class: 114
+      Script: {instanceID: 9846}
+    - Class: 114
+      Script: {instanceID: 10080}
+    - Class: 114
+      Script: {instanceID: 10084}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 11964}
+    - Class: 114
+      Script: {instanceID: 12138}
+    - Class: 114
+      Script: {instanceID: 12436}
+    - Class: 114
+      Script: {instanceID: 12548}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorMovement
+  - hash:
+      serializedVersion: 2
+      Hash: b4e91d2f1e733a02854f7ec3a968c3ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAnimate
+  - hash:
+      serializedVersion: 2
+      Hash: 546928a379fe73e40487ad39049ba395
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ListVariables
+  - hash:
+      serializedVersion: 2
+      Hash: cd40996e4569ad6d4218177a2aaf2264
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 6032c7e5c942070d35fd09d41d49c7c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionSceneLoaded
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseExit
+  - hash:
+      serializedVersion: 2
+      Hash: 45b99c1a2618123d625cf2adac4e16af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableColor
+  - hash:
+      serializedVersion: 2
+      Hash: 17cdc349fb4b0d2291aa6423e3e81b4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionStoreRaycastMouse
+  - hash:
+      serializedVersion: 2
+      Hash: 4598fbae417a00b6323fa837c53fa494
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: dc31c16cacec851148edd8567e1646ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GRampMaker
+  - hash:
+      serializedVersion: 2
+      Hash: 984dcc0ba3707b7691fbdca8ff508d28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterPlayerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 54ac7504027099d9d67bdf1da52f5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionNearestInLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 768e0b2401d6f4fdefbb3f86c12c662e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTextAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bf530eb47e6a86dcee1d42e40c3b7ac8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c997c68991f9ae968283eb1a1972544f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCursor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: ConditionsTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: GameCreatorStandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterPlayerExit
+  - hash:
+      serializedVersion: 2
+      Hash: d940758c192110a78b192abe03ff48a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: setRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 00e9883987db345cc28a6c787e6cfc4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeTag
+  - hash:
+      serializedVersion: 2
+      Hash: f9c0d25015e339631d18fce66c3783a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ToggleVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 614a702d803d93eabcfeeb5de9faa2b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterWhileKeyDown
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c8885eb89657a742af953c958c6432c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: badd27808d0607ba7603e67411002b9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableNumber
+  - hash:
+      serializedVersion: 2
+      Hash: c4a2e2d95ba52d899d49ef8f36f25de2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterAttachments
+  - hash:
+      serializedVersion: 2
+      Hash: 06c3429ae313d60d843b0ee03995cbcc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionSaveGame
+  - hash:
+      serializedVersion: 2
+      Hash: 04e06e16ed1445e5b053f797c2fe9432
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Localization
+    className: TextLocalized
+  - hash:
+      serializedVersion: 2
+      Hash: 8bfeec4eedcac881720ef30965521827
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeColor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 914d214d1f9692b4adbfab9428135c64
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ICameraMotorType
+  - hash:
+      serializedVersion: 2
+      Hash: 4c11ac8a43930d2850ad82497b69a35e
+    assemblyName: Unity.TerrainTools.dll
+    namespaceName: 
+    className: TerrainGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c8885eb89657a742af953c958c6432c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9199402cc3dc1f65e1735697770729e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraDamping
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 61abe213759e542a9be4cf4518fcc5fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionTargetCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 0aa7f832c9e845f1d74eadf6b56c58ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 0acb0ca31a2e7ec344d7ef15e933fe1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterDirection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterFootIK
+  - hash:
+      serializedVersion: 2
+      Hash: 43933a6e2c3cb3f030023688b546ff04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionSetActive
+  - hash:
+      serializedVersion: 2
+      Hash: f52f26cf784d0de300e779142efa177c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionStopMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyUIDynamicStatusBar
+  - hash:
+      serializedVersion: 2
+      Hash: 0ceb3581a881b46f3097af1ef05704db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseHoldRight
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: TouchStickManager
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnDisable
+  - hash:
+      serializedVersion: 2
+      Hash: d56e03fff8fb50e921a2868a71dbda1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.HelpTool
+    className: GEditorSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 77ce6987026131dd3d8e6238254c7d3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTerrainGeneratedData
+  - hash:
+      serializedVersion: 2
+      Hash: 930d77bc12bf21c2ab1b0616f812c4ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterRagdoll
+  - hash:
+      serializedVersion: 2
+      Hash: c8885eb89657a742af953c958c6432c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 738658e1a9f0ef583d4f63d4cf4d7a9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionEnableComponent
+  - hash:
+      serializedVersion: 2
+      Hash: b2209f2f1d33424c5268905479dec52e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.TextureTool
+    className: GTextureToolParams
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 686dc5ae0550d5cc850c0d1dcce4c018
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 62b652b3e3e361b46fbf0f08f2ca05d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: DatabaseGeneral
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 0160455fa8511e058257f3c638148b75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GRuntimeTexturePainter
+  - hash:
+      serializedVersion: 2
+      Hash: 78cf47a74ea29094ed164104f3ed5c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTerrainChunkLOD
+  - hash:
+      serializedVersion: 2
+      Hash: 9e70ecf91466f07d9bd649be625cae52
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0e21c091855dbd1645d385e426c77eb7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GWindZone
+  - hash:
+      serializedVersion: 2
+      Hash: c031bc292a49c167dd7dedc8aff38d4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterGesture
+  - hash:
+      serializedVersion: 2
+      Hash: 0ceb3581a881b46f3097af1ef05704db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseHoldLeft
+  - hash:
+      serializedVersion: 2
+      Hash: 56d04e42b7d5ac4aa7b334bb2e4747b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GFoliageSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 3056584481bb8e1b32eb13cd375ff71e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableRemove
+  - hash:
+      serializedVersion: 2
+      Hash: bb14cdb6d060993fcaa9b72c83b67eca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GAlignToSurfaceFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 2df111591cb03889d1b75eae0f3b1eb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: RememberActive
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 686dc5ae0550d5cc850c0d1dcce4c018
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: db877a44c8104384eb7fbb50685b3390
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: PlayerCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyScript
+  - hash:
+      serializedVersion: 2
+      Hash: 26df9d7729b12b1462f43bbbd6c02c94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableString
+  - hash:
+      serializedVersion: 2
+      Hash: 250641d479f0721616f955b76a705284
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignBool
+  - hash:
+      serializedVersion: 2
+      Hash: 812bcada721acaa2ad4f647497777f37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCharacterJump
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterAnimatorEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: ActionsTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aa0f4a0a0aacb1aa1f71efd3df568a09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: af9400b3064df76f467204452721e6a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterDefaultState
+  - hash:
+      serializedVersion: 2
+      Hash: 509fb9b1f08e7f1e7955fb42212c7be7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterInvoke
+  - hash:
+      serializedVersion: 2
+      Hash: 6854d965f4a47478ede3ca3a9fd480cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IActionsList
+  - hash:
+      serializedVersion: 2
+      Hash: 4a5e8e76878f7406cd2363baf802c3a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: bfcffeb6f809e975b8b8cd687298c6ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseDown
+  - hash:
+      serializedVersion: 2
+      Hash: c0b107cd69e67f90824d9b7f11226325
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: GlobalVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 59ae493da47bc8f3e684aeeb542be043
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableMultiply
+  - hash:
+      serializedVersion: 2
+      Hash: f08a111e17bb701f9c9ec57bb78d9920
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7a123e4c7293327ecbdf2e3f171265f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterState
+  - hash:
+      serializedVersion: 2
+      Hash: 336dc1fb67992b7ec786fdb061d6b3fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAudioPause
+  - hash:
+      serializedVersion: 2
+      Hash: 57dc73b309f2cba2b853d9dfc2c5f126
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GObjectRemover
+  - hash:
+      serializedVersion: 2
+      Hash: 06856758eddfe46019eab4f7c4b329a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IConditionsList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTicker
+  - hash:
+      serializedVersion: 2
+      Hash: 795d5e12ac0cdd1742477d80d10eec95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: TriggerAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1bf716fe23547d764f6bdf8902fe4165
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterDash
+  - hash:
+      serializedVersion: 2
+      Hash: 30df365bc9e36a037bcfb5d62aeb5469
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: TriggerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d528e956a36cadb635879a323767fab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraRotate
+  - hash:
+      serializedVersion: 2
+      Hash: ca5cdf2fddd58b14a6f6146700a96ba8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterStopGesture
+  - hash:
+      serializedVersion: 2
+      Hash: 95869b703693f7d35208e8a2b6ba3a4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterTriggerExitTag
+  - hash:
+      serializedVersion: 2
+      Hash: c308c4c3021cd08ccb77695ebc58f6eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GFoliage
+  - hash:
+      serializedVersion: 2
+      Hash: fff91a6013cf25b3de4dde26035ce4c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 00274a21279f5cb831ce20f895049e38
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: a124319de9fe2544126c2ee1f43d18d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0e771d95f8084464c22950b55e7252f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAudioMixerParameter
+  - hash:
+      serializedVersion: 2
+      Hash: d0890bcd2e473a35fb5fdad368315018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: MBVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 780e8f682b3221346c034a6712a0fd25
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 936ff9a975c4ca0ff575f2fa8fa40991
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionComment
+  - hash:
+      serializedVersion: 2
+      Hash: b5603b5ca3e5a92dc884bf23a58b7a9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionNearestVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 0066520966dba3475cc01599f64604a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: Trigger
+  - hash:
+      serializedVersion: 2
+      Hash: 05ee9ef87a862ba4bb6519d9eeedf33d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GSplatPrototypeGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 847aa87ac89569590426831cfc9b3b23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionBlendShape
+  - hash:
+      serializedVersion: 2
+      Hash: e17c9882ff42c40f49bdf39dc8506790
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 8d583e1bd2450dfea4e49a015826ec74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterKeyUp
+  - hash:
+      serializedVersion: 2
+      Hash: be4e13323491caba62f63084007735e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionPlayMusic
+  - hash:
+      serializedVersion: 2
+      Hash: ea3f9401099c96b0580bb6f16c49f6d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeText
+  - hash:
+      serializedVersion: 2
+      Hash: d697f9e0eb0a36fc6a8060a1b7d2a60b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GScaleRandomizeFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 0ff9aec603269e1f937de22adc6ee520
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionPattern
+  - hash:
+      serializedVersion: 2
+      Hash: 5c6e64ef8cb1f86dec3b199c494535e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GGeometry
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionRestartActions
+  - hash:
+      serializedVersion: 2
+      Hash: 29832354eb2cbff6b87f0f3dfe32f712
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTreePrototypeGroup
+  - hash:
+      serializedVersion: 2
+      Hash: fe50c29624ab0eb95ecabbb243b7a631
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableMath
+  - hash:
+      serializedVersion: 2
+      Hash: 80d70c942d593ee20ba0ce8a01c451d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GPrefabPrototypeGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 26276c394742fa2cf196bbcafb67788c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.StampTool
+    className: GTextureStamper
+  - hash:
+      serializedVersion: 2
+      Hash: e26f0b6a88666d7e57cd95835bf514ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTransformRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 8f35681f2bef20ca8c8a603214a56e37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDeleteProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: ConditionsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fd477bedec4a03f722e5624c2f8b8c97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: InputFieldVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 303ad70ce203ad874efe2965d0fbcff9
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsEventTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb9de8dcf73854b6b328eca1f7a6e6d
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnSave
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Feedback
+    className: DatabaseFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 1dd04990e2f9fa44e240ba69c96eebef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeTween
+  - hash:
+      serializedVersion: 2
+      Hash: 02699a7dd777693a46f3a6265a296549
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.StampTool
+    className: GObjectStamper
+  - hash:
+      serializedVersion: 2
+      Hash: 4fa62931a05a1e900ce5aa703765eee3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITimelineControl
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 457f73a2b54eeca066cc68a9cbeda74b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseLeftClick
+  - hash:
+      serializedVersion: 2
+      Hash: 01a85c34aaade4206e7c9c36ec898e7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.StampTool
+    className: GFoliageStamper
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.HelpTool
+    className: GHelpComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 646a9e209f6adefe5282445b463d20cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraChange
+  - hash:
+      serializedVersion: 2
+      Hash: d697f9e0eb0a36fc6a8060a1b7d2a60b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GScaleClampFilter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: e1a3d24cdc3b861490638d0531a5b7ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Messages
+    className: ActionSimpleMessageShow
+  - hash:
+      serializedVersion: 2
+      Hash: 3d7d5217d429ccdb9a2896b9be751838
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionHeadTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bf4d41aa1bd14c1499cdb9b0ac4c6cd9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestingSpellsScript
+  - hash:
+      serializedVersion: 2
+      Hash: 16c4e7bef1678bd0bf794bcba194ce81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCanvasGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 157d0ee4aef47d5fd58983ed2bf240e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ConditionCharacterCapsule
+  - hash:
+      serializedVersion: 2
+      Hash: 1e5a39bd2e05c6425692659643a18760
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: HPHeadTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5b205013c315322a38c06bfebc81dd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterPlayerStayTimeout
+  - hash:
+      serializedVersion: 2
+      Hash: c3da43c56ea98b742884659c8cba4eb6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDebugBreak
+  - hash:
+      serializedVersion: 2
+      Hash: bfcffeb6f809e975b8b8cd687298c6ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseUp
+  - hash:
+      serializedVersion: 2
+      Hash: 5b79c3e08dce98305c5d765f0dfb162b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignString
+  - hash:
+      serializedVersion: 2
+      Hash: aaea745ccc1ba7a92ced66239b71b03f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnLand
+  - hash:
+      serializedVersion: 2
+      Hash: 042ec84525b0a6e35d35de5b6e1ac744
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLight
+  - hash:
+      serializedVersion: 2
+      Hash: 8583fea595cd252af4916a32f148abc9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: Actions
+  - hash:
+      serializedVersion: 2
+      Hash: bcecc67a4bc7af49fd7c3ee32e080ad2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GGrassPrototypeGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6ebdcff025fc43e0f55cd7f5fc53172b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionRailwayCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 00e579cb306159838898b88d9178903d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignNumber
+  - hash:
+      serializedVersion: 2
+      Hash: f314ebfa22feca572d2af21e68236022
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionConditions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTerrainTools
+  - hash:
+      serializedVersion: 2
+      Hash: 1f5169e436d1fe54b6926428d83c7c58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterHand
+  - hash:
+      serializedVersion: 2
+      Hash: 5b50338979289b74d93f14fe0ab5d14a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: DataProviderDefault
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: GlobalVariablesManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3167a62c70490202996ceb1d10bbafa0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTimeline
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelChanger
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: b75afbdfbe5b0b252645a8c5f846a14b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AIBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 55b9c41405badd24be4f6e58dbbcfcc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyTargetMovement
+  - hash:
+      serializedVersion: 2
+      Hash: f99c76f5032d311d6c4a53268570272a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionInputKey
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 13743873d20eaf43db87f6350b0d61cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterHeadTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a283446b295a2e0a4cf0be4372b91275
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterStateWeight
+  - hash:
+      serializedVersion: 2
+      Hash: 45bd90da69267ec3e8aeb568296b92d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: 39790a29b1d2168a3020d06b04e1ed49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 2de7f4e66e77b85e63d05aba27822a62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionInputMouse
+  - hash:
+      serializedVersion: 2
+      Hash: 5122148beb67735ce061c4a75f14b4b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionSimple
+  - hash:
+      serializedVersion: 2
+      Hash: 001c47094d8b5446e983497321587aed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeTarget
+  - hash:
+      serializedVersion: 2
+      Hash: bde84fbcb6b16b1202ef54343235b342
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAddComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 6201ceeddbf764a1cfa6cfb705965805
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: TouchStick
+  - hash:
+      serializedVersion: 2
+      Hash: 71f960ed271bf933e45bef04c6bb13ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionExistsObject
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0e77dc1bcea8d963c09fba4314b04abd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GNavigationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: a3d2d759b20521c95b86f86bb7605c25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LerpToLocation
+  - hash:
+      serializedVersion: 2
+      Hash: bfd35b3d8bc5c28d9ae315891de32417
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GRotationRandomizeFilter
+  - hash:
+      serializedVersion: 2
+      Hash: d0f7b6890bcd181543fa63ebc7990caf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyEncounter
+  - hash:
+      serializedVersion: 2
+      Hash: d61fa9f58d3e74f6f5e3037bcb0395cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignTexture2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6797241bd94aea1a035d32d37bea1e09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionImageSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 45c895e9013f9ff309a2780ebf1820ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterRotateTowards
+  - hash:
+      serializedVersion: 2
+      Hash: a19279b4e3fdf91623ebad24c87fb3c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableSelect
+  - hash:
+      serializedVersion: 2
+      Hash: f20b66461389549cb5de7d6a051f9253
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionInstantiatePool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Analytics.Editor.dll
+    namespaceName: UnityEditor.Analytics
+    className: AnalyticsEventTrackerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d88ddf94a8d4054f35fe4d0b04da3a85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: NavigationMarker
+  - hash:
+      serializedVersion: 2
+      Hash: a1258b920a011f528e39a2996b0705bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionGatherComponentsByDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 8ba328eeb1ca97826c261709c7da346b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 13e22b494eec27d9cfde697f4dccc527
+    assemblyName: Unity.TerrainTools.dll
+    namespaceName: UnityEngine.Experimental.TerrainAPI
+    className: TerrainGizmos
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterInvisible
+  - hash:
+      serializedVersion: 2
+      Hash: 4b62e6297cba446a347e9700257e4149
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.GroupTool
+    className: GTerrainGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b3e3777141d1d68744426613da9750ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GSlopeConstraintFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 8ba328eeb1ca97826c261709c7da346b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesToggleBool
+  - hash:
+      serializedVersion: 2
+      Hash: a41ba5150b5c5b5ee6f893d51255be75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Pool
+    className: PoolObject
+  - hash:
+      serializedVersion: 2
+      Hash: d729ea6082a68410f58839f2f5033aea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableTexture2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6ba50caef1eaef1eb88fa8e6c96554ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionGraphicColor
+  - hash:
+      serializedVersion: 2
+      Hash: 46f58ad00448e068fa68b7900684ac4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTreeCollider
+  - hash:
+      serializedVersion: 2
+      Hash: a83007e5951347288719186a05bb36ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: DatabaseVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 9778e38d7c3073a193429269bdb89be9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Messages
+    className: SimpleMessageManager
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDebugPause
+  - hash:
+      serializedVersion: 2
+      Hash: dc08f980db39975c02a5a115a56296d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCameraFOV
+  - hash:
+      serializedVersion: 2
+      Hash: 8728ddd3d1709d49b49e5a89529abfb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: Character
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 250cec976fac387243f43f057711a856
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTimescale
+  - hash:
+      serializedVersion: 2
+      Hash: 6caaf813986c934ad1665de570b614a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8f35681f2bef20ca8c8a603214a56e37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCurrentProfile
+  - hash:
+      serializedVersion: 2
+      Hash: f642bfec72d5760081f0381f714e79b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableIterator
+  - hash:
+      serializedVersion: 2
+      Hash: 2960a2af1e76ff49b50e809c385f02aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterVariable
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterVisible
+  - hash:
+      serializedVersion: 2
+      Hash: 59ae493da47bc8f3e684aeeb542be043
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableDivide
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterStart
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLoadLastGame
+  - hash:
+      serializedVersion: 2
+      Hash: b51c788456bdaca666611daab10d3b80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: EventDispatchManager
+  - hash:
+      serializedVersion: 2
+      Hash: b8785f3c08bba81065173c2086b40c98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionFPSCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d010a609dcd2d6321e051074162d069f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GSplineCreator
+  - hash:
+      serializedVersion: 2
+      Hash: b5fe883ac6e64cf81314d42073041b45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterCollisionExitTag
+  - hash:
+      serializedVersion: 2
+      Hash: a7afea4d55c1708f9947810411b8bf11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionCancelActions
+  - hash:
+      serializedVersion: 2
+      Hash: d5a657ece720b93196d64049bc283470
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDispatchEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyCursorMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 5517db5d4c20c8add1c0e7a1e1de8fd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeFirstPerson
+  - hash:
+      serializedVersion: 2
+      Hash: 35b618214604efca5a205f8780cd7ba5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraShakeSustain
+  - hash:
+      serializedVersion: 2
+      Hash: 55c4b1212111d9841eaa26991079fcc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionSendMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 427b04a40ab30661f1bc463bed018c6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLoadScenePlayer
+  - hash:
+      serializedVersion: 2
+      Hash: da4b4f2ef3624b7b86f998bc5090763a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputBoxText
+  - hash:
+      serializedVersion: 2
+      Hash: 6daba422d41ef1e3ebc85c33461a0de8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GShading
+  - hash:
+      serializedVersion: 2
+      Hash: bf98734d9a2b3a18da378fd5b2c1bffb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ConditionGameObjectInList
+  - hash:
+      serializedVersion: 2
+      Hash: 4acaef8b28c0c50b726cd1cd7f3e38ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ConditionListVariableCount
+  - hash:
+      serializedVersion: 2
+      Hash: bc3f1414fef5e2c10419ac3b9e8abb7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterFollow
+  - hash:
+      serializedVersion: 2
+      Hash: d2b7f80d52b137a24721f2b4fef8708d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Pool
+    className: PoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: bf4698a3b70ae92d7166ab31c3de7991
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GInteractiveGrassAgent
+  - hash:
+      serializedVersion: 2
+      Hash: 3571b5eda3fa4f2038030b93103eea86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.BackupTool
+    className: GUndoCompatibleBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: a333773bb9f93761a6bfff65acd1d119
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionNearestComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ComboBoxesManager
+  - hash:
+      serializedVersion: 2
+      Hash: e6bafa053ee7d9a8c028f48000486af6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GObjectHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 1e0ff4ff7157a97344007e86969c2eae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GFoliageRemover
+  - hash:
+      serializedVersion: 2
+      Hash: 64c22ec1cc1d6d6ef08cf78ba9d14cd3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GHeightConstraintFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: f069f1a0e1c03a2b9f9e8dfa1cfa6ef6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 80c3a21f30bd00dd314977950b5a2ed2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraShakeBurst
+  - hash:
+      serializedVersion: 2
+      Hash: a89b372b0ef5082835d8711d0c1d02a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 4a0369cd366c126cd420018a4ac01f32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e9979e1756a00d29e5d29700ed42186c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GGriffinSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e648b368ad1499de652bcfdb3acc1193
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableVector3
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa2f2d7ca93eb3ec7834f56cce1b800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableLoop
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseMiddleClick
+  - hash:
+      serializedVersion: 2
+      Hash: cdb9aeccb3e901cadcaf47e38fb6f517
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionWait
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerVisibility
+  - hash:
+      serializedVersion: 2
+      Hash: 0c7b33a995c7164034a30df438e4e682
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 57accaa6d4086ee11b5ae5bcccea9e27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionInstantiate
+  - hash:
+      serializedVersion: 2
+      Hash: 8a0703124ad2a1906a400970c1bb47bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionQualitySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableSetUpTearDownCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 259d013faac28e8ba0aa2a7542273735
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: d899cfac41d2728a0af7d2b60f4b8128
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: LocalVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 59ae493da47bc8f3e684aeeb542be043
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableSubtract
+  - hash:
+      serializedVersion: 2
+      Hash: ffbf0307f2b137310ae52f9f61e49934
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 74fb0f0e483e6a45bafdce7bf66b479a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionNearestTag
+  - hash:
+      serializedVersion: 2
+      Hash: 0386be917fa6fdc3d1cb9ac8225c5064
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71f960ed271bf933e45bef04c6bb13ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 8767b654e869a47008a26053e27129d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GStylizedTerrain
+  - hash:
+      serializedVersion: 2
+      Hash: 384b04c7aa1eb2c1fe2505f93b045258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.HelpTool
+    className: GHelpDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 92c51f6fd4c5d7d8637de31a43748d13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: Clause
+  - hash:
+      serializedVersion: 2
+      Hash: f212e3d72088d95ce28666ea0ed4753a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OverworldGameManager
+  - hash:
+      serializedVersion: 2
+      Hash: eaba97befcd69f762beb5884f06f3d3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTransformRotateTowards
+  - hash:
+      serializedVersion: 2
+      Hash: 260e88fa9f88e6ed9ecf0bc1ed3c1bad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionPlaySound3D
+  - hash:
+      serializedVersion: 2
+      Hash: c5a9783af5583104619bdc68d3c3bda7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDebugMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 0abdf489dda4f1ee5fc68a7419777c93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeFontSize
+  - hash:
+      serializedVersion: 2
+      Hash: 42096b81192b2c2fc2837aba812e74c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterState
+  - hash:
+      serializedVersion: 2
+      Hash: 65397b9f6b11b65d0d976f8e3979cd78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterIK
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: CoroutinesManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 59ae493da47bc8f3e684aeeb542be043
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableAdd
+  - hash:
+      serializedVersion: 2
+      Hash: d929244b827a7a80a3db3fdac566c740
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableAdd
+  - hash:
+      serializedVersion: 2
+      Hash: cba32fd149a67a0420a118b32d52d8e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignVector2
+  - hash:
+      serializedVersion: 2
+      Hash: ab6988676427b2b30438295015a88459
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: be4e13323491caba62f63084007735e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionPlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: DatabaseQuickstart
+  - hash:
+      serializedVersion: 2
+      Hash: 15e39a408fce39a896556d4c8490753a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeRailway
+  - hash:
+      serializedVersion: 2
+      Hash: e8eccd4b4791022e63a0dafbf65fa4ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GFoliagePainter
+  - hash:
+      serializedVersion: 2
+      Hash: 1257bc47727da84f299c2ee567e77ec6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GRendering
+  - hash:
+      serializedVersion: 2
+      Hash: ee0cef6caaac8ae485bfa82f000f0f7b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: dd2cace24e3f78222e95e06fc2ba7e1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIStatusControlEnemies
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: Unity.Analytics.DataPrivacy.dll
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 628e040db58e3a4eb3cff317ea80e58e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: DialogueTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 95ea539bacf4e53531527f3fc74bc935
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionChangeTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 8d583e1bd2450dfea4e49a015826ec74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterPlayerEnterPressKey
+  - hash:
+      serializedVersion: 2
+      Hash: a0ea28f76d93764433f34147ccd46278
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterKeyHold
+  - hash:
+      serializedVersion: 2
+      Hash: 7278a35eb60f3850f783e14821dd57fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAudioSnapshot
+  - hash:
+      serializedVersion: 2
+      Hash: a04533241c8c1ac51516befb6d0c47c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterProperies
+  - hash:
+      serializedVersion: 2
+      Hash: d1bfe326d73b9d80c886cb0328ef805f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTerrainChunk
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core.Hooks
+    className: HookCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f30f2872fd8e05daa46a5398c7507428
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnJump
+  - hash:
+      serializedVersion: 2
+      Hash: 0a90e15f69609fb4e0be691b177aeab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PsychoticLab
+    className: CharacterRandomizer
+  - hash:
+      serializedVersion: 2
+      Hash: 42a6102ceb82d2f84ec2f824b298fa4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionAnimatorLayer
+  - hash:
+      serializedVersion: 2
+      Hash: ea587555aa383044451988075affd2cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterMoveTo
+  - hash:
+      serializedVersion: 2
+      Hash: d59570bbef03a7d70707cb660df27ad8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTakeScreenshot
+  - hash:
+      serializedVersion: 2
+      Hash: 360768a4373e64fe72b0c3aa77454b95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDebugName
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariablesReset
+  - hash:
+      serializedVersion: 2
+      Hash: c8885eb89657a742af953c958c6432c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 8d583e1bd2450dfea4e49a015826ec74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterKeyDown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core.Hooks
+    className: HookPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 1cc06366b08f98fea4631e8f34af08c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: Conditions
+  - hash:
+      serializedVersion: 2
+      Hash: 94eee942b9ee554cba9a41f66146ec66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterRaycastMousePosition
+  - hash:
+      serializedVersion: 2
+      Hash: a0215600d3edde80d0746c392b2f1513
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 95869b703693f7d35208e8a2b6ba3a4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterTriggerEnterTag
+  - hash:
+      serializedVersion: 2
+      Hash: 674eb141d753d08e163f1025123c106f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 5976d0d6c6d847133f781c126562734b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVariablesAssignColor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: CharacterHandIK
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDynamicStatusBar
+  - hash:
+      serializedVersion: 2
+      Hash: 71f960ed271bf933e45bef04c6bb13ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionActiveObject
+  - hash:
+      serializedVersion: 2
+      Hash: 6685852f2ee4cd32903241ab8c9f3f32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: RememberTransform
+  - hash:
+      serializedVersion: 2
+      Hash: dd2cace24e3f78222e95e06fc2ba7e1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIStatusControl
+  - hash:
+      serializedVersion: 2
+      Hash: 7883807c592f5c2d61c77e47eb8df65e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: SliderVariable
+  - hash:
+      serializedVersion: 2
+      Hash: af86ec39073e30c30aeb30125c961849
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 9b700836d66e2a87fe001967e726a131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 5c99a2decbbc3f347a366cdd6516f20b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionFollowCamera
+  - hash:
+      serializedVersion: 2
+      Hash: fc6e6aa9a02a34561fd0a06e04d26cc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Messages
+    className: ActionFloatingMessage
+  - hash:
+      serializedVersion: 2
+      Hash: b751f6e5b6ee598474b63748c4b4bf17
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: HPProximity
+  - hash:
+      serializedVersion: 2
+      Hash: 85d276ba4e963b6b7f3f01ddc0bad175
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: TextVariable
+  - hash:
+      serializedVersion: 2
+      Hash: aff3520c407bb4e48936fa6e8d72f700
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: GlobalTags
+  - hash:
+      serializedVersion: 2
+      Hash: 03d43d577af3a094a8187f61e363eb32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GTexturePainterCustomParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: EventSystemManager
+  - hash:
+      serializedVersion: 2
+      Hash: b5fe883ac6e64cf81314d42073041b45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterCollisionEnterTag
+  - hash:
+      serializedVersion: 2
+      Hash: 9568110f70b15fb2d7a03d60e3ffd626
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeFixed
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7e9b39d47c341f103f5c60d9edc833
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 1f5691f53b865f34cfede57af9190240
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionReflectionProbes
+  - hash:
+      serializedVersion: 2
+      Hash: 2bed4839d8b7d1180997eed7f2119ed0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: GameProfileUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2d1ed559c150ca46f140d77f65ed571e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterVisibility
+  - hash:
+      serializedVersion: 2
+      Hash: 3c0c1e5ff8609bf5c340c01385146140
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GTerrainData
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: fe21642ef8b6696dc7f889fcd1b689cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: PlayHealEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 245c4bc75f518cf2c7563d7e37e5cf4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 0ceb3581a881b46f3097af1ef05704db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseHoldMiddle
+  - hash:
+      serializedVersion: 2
+      Hash: 2ac15983c3c41b011da0b35eabeaf484
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GPathPainter
+  - hash:
+      serializedVersion: 2
+      Hash: 06c3429ae313d60d843b0ee03995cbcc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionLoadGame
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: SaveLoadManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7466b27471921e1019b8dd4f78739de8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: HPCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 786b4595eafe2d7c1ab52210770dbcc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Footsteps
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnMouseExitUI
+  - hash:
+      serializedVersion: 2
+      Hash: 41caae6cac6f8dd861a2d3415f0ac4fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GTerrainTexturePainter
+  - hash:
+      serializedVersion: 2
+      Hash: 3cd69544900017c0bb6a2e1662ec404f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterEventReceive
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterOnMouseEnterUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4aca9150972a89077865a8e39d803587
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GHeightMapFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 5fac50c15c6f6d7209cc8a0f470b9abc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionActions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: TimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd936f135be1d388d84709ddca956ca4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.StampTool
+    className: GGeometryStamper
+  - hash:
+      serializedVersion: 2
+      Hash: a335f9e7ec33b63416af07d1f373d8ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionMethods
+  - hash:
+      serializedVersion: 2
+      Hash: a0ea28f76d93764433f34147ccd46278
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterHoverHoldKey
+  - hash:
+      serializedVersion: 2
+      Hash: 4f113466d03248c34bd03df660289321
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionExplosion
+  - hash:
+      serializedVersion: 2
+      Hash: 5372ed2ce39229b1ac910757999a8be2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: d0890bcd2e473a35fb5fdad368315018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: SOVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 098a13ab25db9969a29de3e4cfb33b4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: CameraMotorTypeAdventure
+  - hash:
+      serializedVersion: 2
+      Hash: 16e0d4f80c197d3190dfe181a6a9b05f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Localization
+    className: DatabaseLocalization
+  - hash:
+      serializedVersion: 2
+      Hash: 616d409ef03d1969a2f63c279bf1abbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionCameraCullingMask
+  - hash:
+      serializedVersion: 2
+      Hash: fcf8eaa17d48d4a638f648797541fff6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionStopSound
+  - hash:
+      serializedVersion: 2
+      Hash: 510c4192f20e88ee93ea941ee2b13c77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionVolume
+  - hash:
+      serializedVersion: 2
+      Hash: a41c2b596bea0fa36c281d452d2996bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialogueManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Localization
+    className: LocalizationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 475242527b6ca3b3fce3b15b19d56f1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ConditionCharacterProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 3553ee75370f19e4d1823a382a7db8ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterCursorRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 4bea97d3dc5aba51d133176b25041e29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionListVariableClear
+  - hash:
+      serializedVersion: 2
+      Hash: 53c35c249f8ea8de6991d2ab21f16356
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterMount
+  - hash:
+      serializedVersion: 2
+      Hash: e19d7c83b83657bb38a8297edf9dff56
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.SplineTool
+    className: GObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 1683e2404338cc6495a8fabc776db2a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: IgniterCharacterStep
+  - hash:
+      serializedVersion: 2
+      Hash: 08757413f48c5843c6b17790717504ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionFixedCamera
+  - hash:
+      serializedVersion: 2
+      Hash: bfcffeb6f809e975b8b8cd687298c6ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterWhileMouseDown
+  - hash:
+      serializedVersion: 2
+      Hash: 2cd4c8fc3828163a9421cebd66f33bae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: Hotspot
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ea11a5ca82dac1f453f0229abe29d1ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin.PaintTool
+    className: GObjectPainter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pinwheel.Griffin
+    className: GAssetExplorer
+  - hash:
+      serializedVersion: 2
+      Hash: f9993dfe12f92962255a02033541e380
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ConditionVariableBool
+  - hash:
+      serializedVersion: 2
+      Hash: b527dfd76b7402d36bff97ca22cc47ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Variables
+    className: ActionVariableRandom
+  - hash:
+      serializedVersion: 2
+      Hash: 3e6906c70531ccbe2c138414d7360373
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ButtonActions
+  - hash:
+      serializedVersion: 2
+      Hash: 038ff71016d6c8c1cd140fbd55cbc279
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionGravity
+  - hash:
+      serializedVersion: 2
+      Hash: 894d90a445c0c997b444c267b01c2fe8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionTransformMove
+  - hash:
+      serializedVersion: 2
+      Hash: 747c98a1210778be73cea1bc3b5baa1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Camera
+    className: ActionAdventureCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d920b90dafe592dbef17abd4a9b5ba5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionUnloadSceneAsync
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: CanvasRenderMode
+  - hash:
+      serializedVersion: 2
+      Hash: a91f2e7f39b999ab5957a701ba98ac61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterMouseRightClick
+  - hash:
+      serializedVersion: 2
+      Hash: bf3d5c66ebf90be924c570dc943dcb42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionOpenURL
+  - hash:
+      serializedVersion: 2
+      Hash: 95940aa4409c6251a6f8f75db2844f2d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionPlayerMovementInput
+  - hash:
+      serializedVersion: 2
+      Hash: c1a5e9117bd485a50f171c7e89ead46f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: ActionCharacterModel
+  - hash:
+      serializedVersion: 2
+      Hash: db6f52c5c7088036b10d4b8b33c77938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: ActionDebugBeep
+  - hash:
+      serializedVersion: 2
+      Hash: 8d583e1bd2450dfea4e49a015826ec74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterHoverPressKey
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Playables
+    className: ActionsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ad2c6bc3fefd49fd79e1e4f93d1ed2fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Characters
+    className: AnimationClipGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9dc0b2c1ef497879574112a8d0f8cb56
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCreator.Core
+    className: IgniterTriggerStayTimeout
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Official_Scenes/Forest Scenes/BurningForest.unity
+  - Assets/Scenes/Official_Scenes/Forest Scenes/MainForestTown.unity
+  - Assets/Scenes/Official_Scenes/Forest Scenes/BurningForestBattleScene.unity
+  - Assets/Scenes/Official_Scenes/Forest Scenes/BurningForestBattleBossScene.unity
+  playerPath: C:/Users/dlugo/Desktop/Project_Heartwood/Builds/The Butterfly Effect.exe

@@ -1,0 +1,16 @@
+{
+  "Name": "ArcaneBoost",
+  "Type": "Arcane",
+  "TargetType": "Self",
+  "Combo": "BB",
+  "Description": "Channel the power of arcane to haste yourself by 10%.",
+  "StatEffected": [ "AttackSpeed" ],
+  "Arg1": [ 50 ],
+  "Arg2": [ 100 ],
+  "InGameCost": 50,
+  "CastAnim": "ArcaneBoost",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "_ArcaneBoost_"
+}
+		
+		

@@ -1,0 +1,16 @@
+{
+  "Name": "Arc",
+  "Type": "Arcane",
+  "TargetType": "Enemy",
+  "Combo": "AA",
+  "Description": "Channel the power of arcane to unleash a small blast on your foes.",
+  "StatEffected": [ "HP", "Meter" ],
+  "Arg1": [ -15, 20 ],
+  "Arg2": [ 100, 100 ],
+  "InGameCost": 100,
+  "CastAnim": "Arc",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "Arc"
+}
+		
+		

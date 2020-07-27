@@ -1,0 +1,16 @@
+{
+  "Name": "Fireball",
+  "Type": "Fire",
+  "TargetType": "RandomAlly",
+  "Combo": "AB",
+  "Description": "A fire spell.",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -5 ],
+  "Arg2": [ 50 ],
+  "InGameCost": 10,
+  "CastAnim": "FireBall",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "_FireBall_ Ability"
+}
+		
+		

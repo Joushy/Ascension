@@ -1,0 +1,16 @@
+{
+  "Name": "BladeStorm",
+  "Type": "Arcane",
+  "TargetType": "Enemy",
+  "Combo": "BBA",
+  "Description": "Channel the power of arcane conjure swords towards your enemies.",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -75 ],
+  "Arg2": [ 90 ],
+  "InGameCost": 50,
+  "CastAnim": "ArcaneBoost",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "BladeStorm"
+}
+		
+		

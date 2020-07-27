@@ -1,0 +1,15 @@
+{
+  "Name": "Spell3",
+  "Type": "Fire",
+  "TargetType": "Enemy",
+  "Combo": "AA",
+  "Description": "Spell By Char 3",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -5 ],
+  "Arg2": [ 100 ],
+  "InGameCost": 200,
+  "CastAnim": "Cast",
+  "ReceiveAnim": "Receive"
+}
+		
+		

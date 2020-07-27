@@ -1,0 +1,14 @@
+{
+"name": "ForestGuardian",
+"maxHP": 100,
+"HP": 100,
+"baseAttack": 15,
+"baseDefense": 10,
+"speed": 7,
+"meter": 20,
+"XP": 0,
+"Level": 10,
+"status": "",
+"type": "Fire",
+"unlockedSpells": ["AA"]
+}

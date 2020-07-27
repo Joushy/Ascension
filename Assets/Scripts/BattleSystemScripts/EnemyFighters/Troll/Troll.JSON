@@ -1,0 +1,14 @@
+{
+"name": "Troll",
+"maxHP": 200,
+  "HP": 200,
+"baseAttack": 20,
+"baseDefense": 20,
+"speed": 8,
+"meter": 25,
+"XP": 200,
+"Level": 10,
+"status": "",
+"type": "Fire",
+"unlockedSpells": ["AA","AB"]
+}

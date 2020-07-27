@@ -1,0 +1,14 @@
+{
+	"floorType":"EmptyFloor",
+	"id":"EmptyTemplate",
+	"lockedKey":"",
+	"key":"",
+	"nameOfVisualParentGameObject": "Empty",
+	"enemyName": "",
+	"nextRoom": "",
+	"reward": "",
+	"rewardAmount": 0,
+	"text": "",
+	"terminalRoom": true,
+	"difficultyFlag": 0
+}

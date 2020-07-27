@@ -1,0 +1,14 @@
+{
+"name": "Demon",
+"maxHP": 500,
+  "HP": 500,
+"baseAttack": 50,
+"baseDefense": 50,
+"speed": 7,
+"meter": 50,
+"XP": 100,
+"Level": 8,
+"status": "",
+"type": "Fire",
+"unlockedSpells": ["AA","AB"]
+}

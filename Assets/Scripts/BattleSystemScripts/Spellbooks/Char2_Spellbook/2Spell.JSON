@@ -1,0 +1,16 @@
+
+{
+	"Name": "Spell2",
+	"Type": "Fire",
+	"TargetType": "Enemy",
+	"Combo": "22",
+	"Description": "Spell By Char 2",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -5 ],
+  "Arg2": [ 100 ],
+	"InGameCost": 200,
+	"CastAnim": "Cast",
+	"ReceiveAnim": "Receive"
+}
+		
+		

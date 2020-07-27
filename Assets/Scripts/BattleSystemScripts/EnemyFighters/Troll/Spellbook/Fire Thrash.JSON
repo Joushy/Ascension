@@ -1,0 +1,16 @@
+{
+  "Name": "Fire Trash",
+  "Type": "Fire",
+  "TargetType": "RandomAlly",
+  "Combo": "AA",
+  "Description": "A fire spell that does more damage.",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -20 ],
+  "Arg2": [ 70 ],
+  "InGameCost": 50,
+  "CastAnim": "FireBall",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "_FireBall_ Ability"
+}
+		
+		

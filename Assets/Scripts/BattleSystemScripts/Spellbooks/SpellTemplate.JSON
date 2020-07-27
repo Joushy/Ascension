@@ -1,0 +1,21 @@
+{
+
+  "Name": "SpellTemplate",
+  "Type": "Nature"
+  "Fire" "Ice"
+  "Dark" "Light"
+  "Storm" "Arcane",
+  "TargetType": "Enemy"
+  "AllEnemies" "RandomEnemy"
+  "AllAllies" "Self",
+  "Combo": "AA",
+  "Description": "Description goes here",
+  "StatEffected": [ "HP", "Defend", "StatusOn", "StatusOff", "AttackSpeed", "Fainted" ],
+  "Arg1": [ 5 ],
+  "Arg2": [ 5 ],
+  "InGameCost": 200,
+  "CastAnim": "Cast",
+  "ReceiveAnim": "Receive"
+}
+		
+		

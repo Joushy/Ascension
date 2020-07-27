@@ -1,0 +1,16 @@
+{
+  "Name": "Arc III",
+  "Type": "Arcane",
+  "TargetType": "Enemy",
+  "Combo": "AAAA",
+  "Description": "Channel the power of arcane to unleash a strong blast on your foes.",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -45, -120 ],
+  "Arg2": [ 100, 100 ],
+  "InGameCost": 50,
+  "CastAnim": "Arc",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "Arc III"
+}
+		
+		

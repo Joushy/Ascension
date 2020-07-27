@@ -1,0 +1,14 @@
+{
+"name": "ForestGuardian",
+"maxHP": 100,
+"HP": 100,
+"baseAttack": 10,
+"baseDefense": 10,
+"speed": 5,
+"meter": 20,
+"XP": 10,
+"Level": 10,
+"status": "",
+"type": "Arcane",
+"unlockedSpells": ["AA"]
+}

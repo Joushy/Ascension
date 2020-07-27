@@ -1,0 +1,2 @@
+{"condition": "Hero_HP_Low", "spellNames": ["Fireball"], "spellPercents": [100]}
+{"condition": "Enemy_HP_Low", "spellNames": ["Fireball"], "spellPercents": [100]}

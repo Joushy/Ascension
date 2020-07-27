@@ -1,0 +1,16 @@
+{
+  "Name": "HellishFlames",
+  "Type": "Dark",
+  "TargetType": "Enemy",
+  "Combo": "YYY",
+  "Description": "Hellish Flames",
+  "StatEffected": [ "HP" ],
+  "Arg1": [ -20 ],
+  "Arg2": [ 100 ],
+  "InGameCost": 50,
+  "CastAnim": "ArcaneBoost",
+  "ReceiveAnim": "Receive",
+  "ParticleEffect": "HellishFlames"
+}
+		
+		

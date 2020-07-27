@@ -1,0 +1,14 @@
+{
+"floorType":"FightFloor",
+"id":"FightTemplate",
+"lockedKey":"",
+"key":"",
+"nameOfVisualParentGameObject": "Empty",
+"enemyName": "ForestGuardian",
+"nextRoom": "",
+"reward": "",
+"rewardAmount": 0,
+"text": "",
+"terminalRoom": true,
+"difficultyFlag": 0
+}

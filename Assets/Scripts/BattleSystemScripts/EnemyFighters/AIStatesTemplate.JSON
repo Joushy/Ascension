@@ -1,0 +1,15 @@
+only include conditions wanted
+only include on-zero percents/spells in state
+
+{"condition": "Hero_HP_Low", "spellNames":[] , spellPercents: [] }
+{"condition": "Hero_Speed_Fast", "spellNames":[] , spellPercents: [] }
+{"condition": "Hero_About_To_Attack", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Fainted", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_HP_Low", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Speed_Slow", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_About_To_Attack", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Has_Effect_poison", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Has_Effect_freeze", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Has_Effect_sleep", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Has_Effect_burn", "spellNames":[] , spellPercents: [] }
+{"condition": "Enemy_Has_Effect_sloth", "spellNames":[] , spellPercents: [] }
